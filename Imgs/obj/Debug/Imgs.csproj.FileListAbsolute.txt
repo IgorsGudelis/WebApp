@@ -1,0 +1,14 @@
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\bin\Debug\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\bin\Debug\Imgs.pdb
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\bin\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\bin\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\obj\Debug\Imgs.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\obj\Debug\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\MyApp\Imgs\obj\Debug\Imgs.pdb
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Debug\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Debug\Imgs.pdb
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Debug\Imgs.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Debug\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Debug\Imgs.pdb

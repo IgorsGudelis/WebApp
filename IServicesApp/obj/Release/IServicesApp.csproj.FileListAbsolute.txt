@@ -1,0 +1,5 @@
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\bin\Release\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\bin\Release\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Release\IServicesApp.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Release\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Release\IServicesApp.pdb

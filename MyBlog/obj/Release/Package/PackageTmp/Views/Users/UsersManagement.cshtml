@@ -1,0 +1,79 @@
+﻿@using System.Activities.Statements
+@using System.Text
+@using MyBlog.Models.Users
+@using MyBlog.Helpers
+@model UserModel 
+
+@{
+    ViewBag.Title = "UsersManagement";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+<div class="container" style="margin-top: 20px;">
+
+    @{
+        Html.RenderPartial("FindUsers", new PageInfo()
+        {
+            Find = @Model.PageInfo.Find,
+            CurrentPage = @Model.PageInfo.CurrentPage
+        });
+    }
+
+    <div class="row">
+
+        <div id="result" class="col-md-6" style="background-color: rgb(186, 187, 187); border-radius: 3pt;">
+            @{
+                Html.RenderPartial("TableUsers", new ListUsers()
+                {
+                    AllUsers = @Model.ListUsers.AllUsers
+                });
+
+                Html.RenderPartial("Pagination", new PageInfo()
+                {
+                    CurrentPage = @Model.PageInfo.CurrentPage,
+                    TotalPages = @Model.PageInfo.TotalPages
+                });
+            }
+
+            <div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+                <div class="col-lg-12">
+                    <button id="showFormAddUser" class="btn btn-success">Add User</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            @{
+                Html.RenderPartial("AddUser", new SelectUserModel()
+                {
+                });
+
+                Html.RenderPartial("EditUser", new SelectUserModel()
+                {
+                });
+            }
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    window.AppU.pageInfo = {
+        currentPage: @Model.PageInfo.CurrentPage,
+        totalPages: @Model.PageInfo.TotalPages
+    };
+</script>
+
+<script src="@Url.Content("~/Scripts/Users/disabledPrevNext.js")"></script>
+<script src="@Url.Content("~/Scripts/users/usersFunctions.js")"></script>
+<script src="@Url.Content("~/Scripts/Users/usersPagination.js")"></script>
+<script src="@Url.Content("~/Scripts/Users/historyPushState.js")"></script>
+<script src="@Url.Content("~/Scripts/Users/usersManagementStart.js")"></script>
+
+
+
+
+
+

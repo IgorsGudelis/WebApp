@@ -1,0 +1,27 @@
+﻿@using MyBlog.Models.Users
+@model SelectUserModel
+
+@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+<div class="container">
+    <h2>Upload File</h2>
+
+    @using (@Html.BeginForm("Upload", "Users", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="form-inline">
+            <input type="file" name="file" style="margin-bottom: 15px;"/>
+            <button class="btn btn-success"><i class="fa fa-upload"> Upload</i></button>
+        </div>
+        
+        <input id="idCurrentUserImg" class="hidden" name="id" value="@Model.ID"/>
+    }
+
+
+   
+
+</div>
+
+

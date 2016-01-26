@@ -1,0 +1,5 @@
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Debug\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Debug\EmailManager.pdb
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Debug\EmailManager.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Debug\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Debug\EmailManager.pdb

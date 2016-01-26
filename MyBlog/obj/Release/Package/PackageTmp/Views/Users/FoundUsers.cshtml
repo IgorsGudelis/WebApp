@@ -1,0 +1,43 @@
+﻿@using MyBlog.Helpers
+@using MyBlog.Models.Users
+@model UserModel
+
+@{
+    Html.RenderPartial("TableUsers", new ListUsers()
+    {
+        AllUsers = @Model.ListUsers.AllUsers
+    });
+
+    Html.RenderPartial("Pagination", new PageInfo()
+    {
+        CurrentPage = @Model.PageInfo.CurrentPage,
+        TotalPages = @Model.PageInfo.TotalPages
+    });
+}
+
+<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="col-lg-12">
+        <button id="showFormAddUser" class="btn btn-success">Add User</button>
+    </div>
+</div>
+
+<script>
+    AppU.pageInfo.currentPage = @Model.PageInfo.CurrentPage;
+    AppU.pageInfo.totalPages = @Model.PageInfo.TotalPages;
+    AppU.userPage.initTable();
+    AppU.userPage.pagination();
+
+
+ /* (function(message) {
+      
+      
+      alert(message);
+    })($);
+*/
+   
+</script>
+
+
+
+
+

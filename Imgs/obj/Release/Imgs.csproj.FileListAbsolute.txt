@@ -1,0 +1,7 @@
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Release\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Release\Imgs.pdb
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Release\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\bin\Release\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Release\Imgs.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Release\Imgs.dll
+E:\GoogleDrive\C#\Code\MyApp\Imgs\obj\Release\Imgs.pdb

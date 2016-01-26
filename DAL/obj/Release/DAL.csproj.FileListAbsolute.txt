@@ -1,0 +1,8 @@
+E:\GoogleDrive\C#\Code\MyApp\DAL\bin\Release\DAL.dll.config
+E:\GoogleDrive\C#\Code\MyApp\DAL\bin\Release\DAL.dll
+E:\GoogleDrive\C#\Code\MyApp\DAL\bin\Release\DAL.pdb
+E:\GoogleDrive\C#\Code\MyApp\DAL\bin\Release\EntityFramework.dll
+E:\GoogleDrive\C#\Code\MyApp\DAL\bin\Release\EntityFramework.SqlServer.dll
+E:\GoogleDrive\C#\Code\MyApp\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\DAL\obj\Release\DAL.dll
+E:\GoogleDrive\C#\Code\MyApp\DAL\obj\Release\DAL.pdb

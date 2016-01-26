@@ -1,0 +1,14 @@
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Release\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Release\EmailManager.pdb
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Release\IDAL.dll
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\bin\Release\IDAL.pdb
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Release\Email.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Release\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\EmailManager\obj\Release\EmailManager.pdb
+E:\GoogleDrive\C#\Code\MyApp\Email\bin\Release\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\Email\bin\Release\EmailManager.pdb
+E:\GoogleDrive\C#\Code\MyApp\Email\bin\Release\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\Email\bin\Release\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\Email\obj\Release\Email.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\Email\obj\Release\EmailManager.dll
+E:\GoogleDrive\C#\Code\MyApp\Email\obj\Release\EmailManager.pdb

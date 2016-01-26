@@ -1,0 +1,7 @@
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\bin\Debug\AdminAppSettings.dll
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\bin\Debug\AdminAppSettings.pdb
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\bin\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\bin\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\obj\Debug\AdminAppSettings.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\obj\Debug\AdminAppSettings.dll
+E:\GoogleDrive\C#\Code\MyApp\AdminAppSettings\obj\Debug\AdminAppSettings.pdb

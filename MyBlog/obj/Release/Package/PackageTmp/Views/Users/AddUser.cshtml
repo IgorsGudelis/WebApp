@@ -1,0 +1,50 @@
+﻿@using MyBlog.Models.Users
+@model SelectUserModel
+
+<div id="addUserForm" style="border-radius: 3pt;">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="pull-right text-right">
+                <button id="closeAddUserForm" class="btn btn-default btn-xs">X</button>
+            </div>
+
+            <h3 style="position: absolute; top: 40px; right: 200px;">Add User</h3>
+
+            <div id="userImg" class="col-lg-12"></div>
+
+            @{
+                AjaxOptions ajaxOptionsAddUser = new AjaxOptions
+                {
+                    UpdateTargetId = "result",
+                    Url = Url.Action("AddUser"),
+                };
+            }
+            @using (@Ajax.BeginForm("AddUser", ajaxOptionsAddUser))
+            {
+                <div class="form-horizontal col-lg-12">
+                    <div class="form-group" style="margin-top: 20px;">
+                        <div class="col-lg-3">
+                            <button class="btn btn-default form-control" type="button">
+                                <i class="fa fa-upload"></i>
+                                @Html.ActionLink("User Img", "Upload", new { idParam = "xxx" },
+                                      new { @class = "callUploadUserImg", data_src = "/Users/Upload?idParam=xxx" })
+                            </button>
+                        </div>
+                    </div>
+
+                    @Html.Partial("SelectUserModel")
+
+                    <div class="form-group" style="margin-top: 25px; padding-bottom: 15px;">
+                        <div class="col-lg-3 col-lg-offset-4">
+                            <button type="submit" class="btn btn-success form-control  okAddUser">Add User</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="reset" class="btn btn-default form-control ">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

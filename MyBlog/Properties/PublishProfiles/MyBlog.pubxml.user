@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\WebApp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AdminAppSettings.dll">
+      <publishTime>01/06/2016 01:35:12</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>01/06/2016 02:13:03</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>01/06/2016 02:13:02</publishTime>
+    </File>
+    <File Include="bin/EmailManager.dll">
+      <publishTime>01/06/2016 01:35:11</publishTime>
+    </File>
+    <File Include="bin/IDAL.dll">
+      <publishTime>12/28/2015 19:23:33</publishTime>
+    </File>
+    <File Include="bin/Imgs.dll">
+      <publishTime>01/06/2016 01:35:12</publishTime>
+    </File>
+    <File Include="bin/IServicesApp.dll">
+      <publishTime>01/06/2016 01:35:10</publishTime>
+    </File>
+    <File Include="bin/Logs.dll">
+      <publishTime>01/06/2016 02:13:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/06/2016 01:09:04</publishTime>
+    </File>
+    <File Include="bin/MyBlog.dll">
+      <publishTime>01/06/2016 02:13:04</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>01/06/2016 01:09:03</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>01/06/2016 01:09:01</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Mvc.dll">
+      <publishTime>01/06/2016 01:09:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/06/2016 01:09:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/06/2016 01:09:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/06/2016 01:09:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>01/06/2016 01:08:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/06/2016 01:09:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/06/2016 01:09:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/06/2016 01:09:04</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>01/06/2016 01:09:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/UserPosition.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Content/UserStyle.css">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Files/noImg.jpg">
+      <publishTime>01/06/2016 02:09:35</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/06/2016 01:08:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Imgs/Users/stars4.jpg">
+      <publishTime>01/06/2016 01:08:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/HomePage/HomePage.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.map">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/Users/disabledPrevNext.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/Users/historyPushState.js">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Scripts/Users/usersFunctions.js">
+      <publishTime>01/06/2016 01:34:24</publishTime>
+    </File>
+    <File Include="Scripts/Users/usersManagementStart.js">
+      <publishTime>01/06/2016 01:33:42</publishTime>
+    </File>
+    <File Include="Scripts/Users/usersPagination.js">
+      <publishTime>01/06/2016 01:33:42</publishTime>
+    </File>
+    <File Include="Views/Posts/Index.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/StartPage/HomePage.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/Users/AddUser.cshtml">
+      <publishTime>01/06/2016 01:44:15</publishTime>
+    </File>
+    <File Include="Views/Users/EditUser.cshtml">
+      <publishTime>01/06/2016 01:44:15</publishTime>
+    </File>
+    <File Include="Views/Users/FindUsers.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/Users/FoundUsers.cshtml">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Views/Users/Pagination.cshtml">
+      <publishTime>01/06/2016 01:08:51</publishTime>
+    </File>
+    <File Include="Views/Users/SelectUser.cshtml">
+      <publishTime>12/27/2015 16:24:47</publishTime>
+    </File>
+    <File Include="Views/Users/SelectUserModel.cshtml">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Views/Users/TableUsers.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/Users/Upload.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/Users/UsersManagement.cshtml">
+      <publishTime>01/06/2016 01:08:54</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Views/_BasicLayout.cshtml">
+      <publishTime>01/06/2016 01:08:51</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

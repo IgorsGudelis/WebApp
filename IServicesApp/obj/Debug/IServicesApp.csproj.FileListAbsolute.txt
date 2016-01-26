@@ -1,0 +1,10 @@
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\bin\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\bin\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Debug\IServicesApp.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\IServicesApp\obj\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\MyApp\IServicesApp\bin\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\MyApp\IServicesApp\bin\Debug\IServicesApp.pdb
+E:\GoogleDrive\C#\Code\MyApp\MyApp\IServicesApp\obj\Debug\IServicesApp.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\MyApp\IServicesApp\obj\Debug\IServicesApp.dll
+E:\GoogleDrive\C#\Code\MyApp\MyApp\IServicesApp\obj\Debug\IServicesApp.pdb

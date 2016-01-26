@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url(../Imgs/Users/stars4.jpg);
+}
+
+/*UserManagement*/
+
+/*Table*/
+.myTh th{
+    text-align: center;
+    background-color: #cbd4db;
+}
+
+.editUserLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.deleteUserLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Form*/
+#addUserForm {
+    background-color: rgb(186, 187, 187);
+}
+
+#editUserForm {
+    background-color: rgb(186, 187, 187);
+}

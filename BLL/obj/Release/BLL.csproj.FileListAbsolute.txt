@@ -1,0 +1,7 @@
+E:\GoogleDrive\C#\Code\MyApp\BLL\bin\Release\BLL.dll
+E:\GoogleDrive\C#\Code\MyApp\BLL\bin\Release\BLL.pdb
+E:\GoogleDrive\C#\Code\MyApp\BLL\bin\Release\DAL.dll
+E:\GoogleDrive\C#\Code\MyApp\BLL\bin\Release\DAL.pdb
+E:\GoogleDrive\C#\Code\MyApp\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyApp\BLL\obj\Release\BLL.dll
+E:\GoogleDrive\C#\Code\MyApp\BLL\obj\Release\BLL.pdb

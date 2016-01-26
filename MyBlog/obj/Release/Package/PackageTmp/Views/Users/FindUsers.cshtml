@@ -1,0 +1,18 @@
+﻿@using MyBlog.Models.Users
+@model PageInfo
+
+
+
+    <div class="form-inline" style="margin-bottom: 20px;">
+        @Html.TextBoxFor(x => x.Find, new {@id = "findItemFindUsers", @class = "form-control", @placeholder = "Enter query",
+            @style = "opacity: 0.5; border-color: rgb(186, 187, 187);"})
+
+        <button id="okSearchUser" class="btn btn-success"><i class="glyphicon glyphicon-search"></i> Search</button>
+    </div>
+
+    <div id ="loadSearch" style="position: absolute; top: 25px; left: 450px; color: white;">
+        <i class="fa fa-spinner fa-spin fa-2x"></i>
+    </div>
+
+ 
+
