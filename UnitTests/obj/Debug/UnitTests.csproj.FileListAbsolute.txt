@@ -94,3 +94,4 @@ E:\GoogleDrive\C#\Code\MyApp\UnitTests\bin\Debug\Imgs.dll
 E:\GoogleDrive\C#\Code\MyApp\UnitTests\bin\Debug\AdminAppSettings.dll
 E:\GoogleDrive\C#\Code\MyApp\UnitTests\bin\Debug\Imgs.pdb
 E:\GoogleDrive\C#\Code\MyApp\UnitTests\bin\Debug\AdminAppSettings.pdb
+E:\GoogleDrive\C#\Code\MyApp\UnitTests\bin\Debug\EntityFramework.dll

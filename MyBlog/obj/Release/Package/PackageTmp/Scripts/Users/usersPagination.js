@@ -8,11 +8,11 @@
 
         var findParam = $('#findItemFindUsers').val();
 
+        var url = "Users/FindUser";
         var getSetupPaginationAjaxRequest = function(currentPageParam, findUser) {
-           return {
-               //url: AppU.urls.getUserByPage,
-               //url: 'http://localhost:7738/Users/FindUser',
-                url: "Users/FindUser",
+            return {             
+                //url: AppU.urls.getUserByPage + url,
+                url: "FindUser",
                 type: "POST",
                 data: { currentPage: currentPageParam, find: findUser},
                 success: function (data) {
@@ -33,8 +33,6 @@
         $('#prevUsersPage').on('click', function () {
             currentPageParam--;
 
-
-            //globObj.pushState(current); globalObj.pushState = function(){};
             pushState(currentPageParam);
 
             var setup = getSetupPaginationAjaxRequest(currentPageParam, findParam);

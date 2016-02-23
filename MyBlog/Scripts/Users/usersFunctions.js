@@ -133,7 +133,8 @@ function completeEditUserForm(result) {
             $findUser.val($('#findItemFindUsers').val());
 
             $.ajax({
-                url: "Users/EditUserQuery",
+                //url: "Users/EditUserQuery",
+                url: "EditUserQuery",
                 type: "POST",
                 dataType: 'json',
                 data: {
@@ -161,7 +162,8 @@ function completeEditUserForm(result) {
 
             if (confirm("Delete User?")) {
                 $.ajax({
-                    url: "Users/DeleteUser",
+                    //url: "Users/DeleteUser",
+                    url: "DeleteUser",
                     type: "POST",
                     dataType: 'json',
                     data: {

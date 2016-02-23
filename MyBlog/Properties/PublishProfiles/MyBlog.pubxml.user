@@ -13,13 +13,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/06/2016 01:35:12</publishTime>
     </File>
     <File Include="bin/BLL.dll">
-      <publishTime>01/06/2016 02:13:03</publishTime>
+      <publishTime>02/23/2016 02:23:05</publishTime>
     </File>
     <File Include="bin/DAL.dll">
-      <publishTime>01/06/2016 02:13:02</publishTime>
+      <publishTime>02/23/2016 02:23:05</publishTime>
     </File>
     <File Include="bin/EmailManager.dll">
       <publishTime>01/06/2016 01:35:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/19/2016 17:53:29</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/19/2016 17:53:29</publishTime>
     </File>
     <File Include="bin/IDAL.dll">
       <publishTime>12/28/2015 19:23:33</publishTime>
@@ -31,13 +37,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/06/2016 01:35:10</publishTime>
     </File>
     <File Include="bin/Logs.dll">
-      <publishTime>01/06/2016 02:13:03</publishTime>
+      <publishTime>02/23/2016 02:23:06</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>01/06/2016 01:09:04</publishTime>
     </File>
     <File Include="bin/MyBlog.dll">
-      <publishTime>01/06/2016 02:13:04</publishTime>
+      <publishTime>02/23/2016 02:23:06</publishTime>
     </File>
     <File Include="bin/Ninject.dll">
       <publishTime>01/06/2016 01:09:03</publishTime>
@@ -103,10 +109,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/06/2016 01:08:55</publishTime>
     </File>
     <File Include="Content/UserStyle.css">
-      <publishTime>01/06/2016 01:08:55</publishTime>
+      <publishTime>01/12/2016 01:19:30</publishTime>
     </File>
     <File Include="Files/noImg.jpg">
-      <publishTime>01/06/2016 02:09:35</publishTime>
+      <publishTime>02/23/2016 00:11:49</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.eot">
       <publishTime>01/06/2016 01:08:55</publishTime>
@@ -148,7 +154,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/06/2016 01:08:56</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/06/2016 01:08:53</publishTime>
+      <publishTime>02/19/2016 17:53:45</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>01/06/2016 01:08:54</publishTime>
@@ -193,61 +199,94 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/06/2016 01:08:54</publishTime>
     </File>
     <File Include="Scripts/Users/usersFunctions.js">
-      <publishTime>01/06/2016 01:34:24</publishTime>
+      <publishTime>02/13/2016 02:10:54</publishTime>
     </File>
     <File Include="Scripts/Users/usersManagementStart.js">
-      <publishTime>01/06/2016 01:33:42</publishTime>
+      <publishTime>02/13/2016 03:57:14</publishTime>
     </File>
     <File Include="Scripts/Users/usersPagination.js">
-      <publishTime>01/06/2016 01:33:42</publishTime>
+      <publishTime>02/13/2016 02:17:39</publishTime>
+    </File>
+    <File Include="Styles/ErrorStyles.css">
+      <publishTime>02/23/2016 00:41:11</publishTime>
+    </File>
+    <File Include="Styles/navStyles.css">
+      <publishTime>02/22/2016 23:36:00</publishTime>
+    </File>
+    <File Include="Styles/UserPosition.css">
+      <publishTime>01/06/2016 01:08:53</publishTime>
+    </File>
+    <File Include="Styles/UserStyle.css">
+      <publishTime>02/23/2016 00:42:50</publishTime>
+    </File>
+    <File Include="Views/Account/LogIn.cshtml">
+      <publishTime>02/23/2016 02:20:24</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>02/23/2016 00:31:44</publishTime>
+    </File>
+    <File Include="Views/Navigation/Home.cshtml">
+      <publishTime>02/13/2016 16:10:01</publishTime>
+    </File>
+    <File Include="Views/Navigation/LogInPartial.cshtml">
+      <publishTime>02/22/2016 23:34:40</publishTime>
+    </File>
+    <File Include="Views/Navigation/Navigation.cshtml">
+      <publishTime>02/22/2016 23:37:44</publishTime>
     </File>
     <File Include="Views/Posts/Index.cshtml">
       <publishTime>01/06/2016 01:08:54</publishTime>
     </File>
     <File Include="Views/StartPage/HomePage.cshtml">
-      <publishTime>01/06/2016 01:08:54</publishTime>
+      <publishTime>01/10/2016 20:45:26</publishTime>
     </File>
     <File Include="Views/Users/AddUser.cshtml">
-      <publishTime>01/06/2016 01:44:15</publishTime>
+      <publishTime>02/13/2016 00:49:39</publishTime>
     </File>
     <File Include="Views/Users/EditUser.cshtml">
-      <publishTime>01/06/2016 01:44:15</publishTime>
+      <publishTime>02/13/2016 02:57:26</publishTime>
     </File>
     <File Include="Views/Users/FindUsers.cshtml">
-      <publishTime>01/06/2016 01:08:54</publishTime>
+      <publishTime>02/13/2016 17:36:06</publishTime>
     </File>
     <File Include="Views/Users/FoundUsers.cshtml">
-      <publishTime>01/06/2016 01:08:53</publishTime>
+      <publishTime>02/23/2016 01:04:37</publishTime>
     </File>
     <File Include="Views/Users/Pagination.cshtml">
-      <publishTime>01/06/2016 01:08:51</publishTime>
+      <publishTime>01/09/2016 21:03:14</publishTime>
     </File>
     <File Include="Views/Users/SelectUser.cshtml">
       <publishTime>12/27/2015 16:24:47</publishTime>
     </File>
     <File Include="Views/Users/SelectUserModel.cshtml">
-      <publishTime>01/06/2016 01:08:53</publishTime>
+      <publishTime>01/09/2016 21:03:14</publishTime>
+    </File>
+    <File Include="Views/Users/ShowHelp.cshtml">
+      <publishTime>02/13/2016 16:10:01</publishTime>
     </File>
     <File Include="Views/Users/TableUsers.cshtml">
-      <publishTime>01/06/2016 01:08:54</publishTime>
+      <publishTime>02/23/2016 00:07:50</publishTime>
     </File>
     <File Include="Views/Users/Upload.cshtml">
-      <publishTime>01/06/2016 01:08:54</publishTime>
+      <publishTime>02/13/2016 16:15:43</publishTime>
     </File>
     <File Include="Views/Users/UsersManagement.cshtml">
-      <publishTime>01/06/2016 01:08:54</publishTime>
+      <publishTime>02/23/2016 00:08:56</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>01/06/2016 01:08:53</publishTime>
     </File>
     <File Include="Views/_BasicLayout.cshtml">
-      <publishTime>01/06/2016 01:08:51</publishTime>
+      <publishTime>02/23/2016 00:41:25</publishTime>
+    </File>
+    <File Include="Views/_Page_Views__BasicLayout_cshtml/LogInPartial.cshtml">
+      <publishTime>02/22/2016 23:19:54</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>01/06/2016 01:08:53</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/06/2016 01:08:53</publishTime>
+      <publishTime>02/23/2016 01:28:57</publishTime>
     </File>
   </ItemGroup>
 </Project>

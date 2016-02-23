@@ -52,10 +52,12 @@ namespace MyBlog.Helpers
             int firstPage;
             int indxFirstPage;
 
+            //Detects that number of page stay in interval of pages for display
             bool currentPageIsOnInterval = (pageInfo.CurrentPage % displayPagesCount) != 0;
 
             if (currentPageIsOnInterval)
             {
+                
                 indxFirstPage = (pageInfo.CurrentPage/displayPagesCount)*displayPagesCount;
 
                 firstPage = (indxFirstPage != pageInfo.TotalPages) ? indxFirstPage + 1 : pageInfo.TotalPages;

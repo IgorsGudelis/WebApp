@@ -9,3 +9,4 @@ E:\GoogleDrive\C#\Code\MyApp\Logs\bin\Release\IServicesApp.pdb
 E:\GoogleDrive\C#\Code\MyApp\Logs\obj\Release\Logs.csprojResolveAssemblyReference.cache
 E:\GoogleDrive\C#\Code\MyApp\Logs\obj\Release\Logs.dll
 E:\GoogleDrive\C#\Code\MyApp\Logs\obj\Release\Logs.pdb
+E:\GoogleDrive\C#\Code\MyApp\Logs\bin\Release\EntityFramework.dll

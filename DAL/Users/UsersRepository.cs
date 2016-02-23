@@ -10,8 +10,12 @@ namespace DAL.Users
     public class UsersRepository : IUser
     {
         private readonly SqlConnection _connect = new SqlConnection();
-        private const string StringConnection = @"Data Source=DESKTOP-2ABAPV0\LOCAL;
-            Initial Catalog=MyBlog;Integrated Security=True;Pooling=False";
+        /*private const string StringConnection = @"Data Source=DESKTOP-2ABAPV0\LOCAL;
+            Initial Catalog=MyBlog;Integrated Security=True;Pooling=False";*/
+        private const string StringConnection = @"workstation id=AdminPlusdb.mssql.somee.com;packet size=4096;
+            user id=AdminPlus_SQLLogin_1;pwd=p4ii8u7gof;
+            data source=AdminPlusdb.mssql.somee.com;
+            persist security info=False;initial catalog=AdminPlusdb";
 
 
         public void OpenConnection()

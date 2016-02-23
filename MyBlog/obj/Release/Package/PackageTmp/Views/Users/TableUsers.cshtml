@@ -9,7 +9,12 @@
             <th>LastName</th>
             <th>FirstName</th>
             <th>Email</th>
-            <th>Edit</th>
+
+            @if (User.Identity.Name == "admin")
+            {
+                <th>Edit</th> 
+            }
+
         </tr>
     </thead>
 
@@ -22,11 +27,14 @@
                 <td>@i.LastName</td>
                 <td>@i.FirstName</td>
                 <td>@i.Email</td>
-                <td>
-                    <a data-id="@i.ID" class="editUserLink"><i class="glyphicon glyphicon-pencil"></i></a>
+                @if (User.Identity.Name == "admin")
+                {
+                    <td>
+                        <a data-id="@i.ID" class="editUserLink"><i class="glyphicon glyphicon-pencil"></i></a>
+                        <a data-id="@i.ID" class="deleteUserLink glyphicon"><i class="glyphicon glyphicon-trash"></i></a>
+                    </td>
+                }
 
-                    <a data-id="@i.ID" class="deleteUserLink glyphicon"><i class="glyphicon glyphicon-trash"></i></a>
-                </td>
             </tr>
         }
     </tbody>

@@ -50,8 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\PostDTO.cs" />
+    <Compile Include="DTO\UserAuthDto.cs" />
     <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="Users\IUserAuthRepository.cs" />
+    <Compile Include="Users\Myblog.cs" />
+    <Compile Include="Users\UserAuthRepository.cs" />
     <Compile Include="Users\UsersRepository.cs" />
     <Compile Include="Users\IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

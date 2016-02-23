@@ -1,0 +1,10 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <a href="#">@Html.Encode(User.Identity.Name)</a>
+    @Html.ActionLink("Log out", "LogOff", "Account", null, new { @class = "btn btn-default navbar-btn" })
+}
+else
+{
+    @Html.ActionLink("Sign up", "Register", "Account", null, new { @class = "btn btn-success navbar-btn" })
+    @Html.ActionLink("Sign in", "LogIn", "Account", null, new { @class = "btn btn-default navbar-btn" })
+}

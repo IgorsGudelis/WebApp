@@ -20,3 +20,4 @@ E:\GoogleDrive\C#\Code\MyApp\MyApp\Logs\bin\Debug\IServicesApp.pdb
 E:\GoogleDrive\C#\Code\MyApp\MyApp\Logs\obj\Debug\Logs.csprojResolveAssemblyReference.cache
 E:\GoogleDrive\C#\Code\MyApp\MyApp\Logs\obj\Debug\Logs.dll
 E:\GoogleDrive\C#\Code\MyApp\MyApp\Logs\obj\Debug\Logs.pdb
+E:\GoogleDrive\C#\Code\MyApp\Logs\bin\Debug\EntityFramework.dll

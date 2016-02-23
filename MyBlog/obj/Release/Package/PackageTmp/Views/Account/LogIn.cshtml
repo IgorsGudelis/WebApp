@@ -1,0 +1,52 @@
+﻿@model MyBlog.Models.Users.LoginModel
+
+@{
+    ViewBag.Title = "Sign in";
+}
+
+<div class="panel col-md-6 col-md-offset-1">
+    <div class="panel-heading">
+        <h2>Sign in</h2>
+    </div>
+
+    <div class="panel-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true)
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, new {@class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Name, new {@class = "form-control"})
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Password, new {@class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new {@class = "form-control", autocomplete = "off"})
+                        @Html.ValidationMessageFor(model => model.Password)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Login" class="btn btn-primary"/>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="panel-footer">
+        <p>
+            @Html.ActionLink("Register", "Register", null, new { @class = "btn btn-success" })
+            if you haven't account.
+        </p>
+    </div>
+</div>
+
+

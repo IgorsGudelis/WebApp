@@ -33,3 +33,4 @@ E:\GoogleDrive\C#\Code\MyApp\MyApp\BLL\bin\Debug\DAL.pdb
 E:\GoogleDrive\C#\Code\MyApp\MyApp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\GoogleDrive\C#\Code\MyApp\MyApp\BLL\obj\Debug\BLL.dll
 E:\GoogleDrive\C#\Code\MyApp\MyApp\BLL\obj\Debug\BLL.pdb
+E:\GoogleDrive\C#\Code\MyApp\BLL\bin\Debug\EntityFramework.dll

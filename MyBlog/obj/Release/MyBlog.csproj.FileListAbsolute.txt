@@ -40,3 +40,7 @@ E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\AdminAppSettings.pdb
 E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\Imgs.pdb
 E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\IServicesApp.pdb
 E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\Logs.pdb
+E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\EntityFramework.dll
+E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\EntityFramework.SqlServer.dll
+E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\EntityFramework.xml
+E:\GoogleDrive\C#\Code\MyApp\MyBlog\bin\EntityFramework.SqlServer.xml

@@ -10,8 +10,9 @@
 
         var url = "Users/FindUser";
         var getSetupPaginationAjaxRequest = function(currentPageParam, findUser) {
-           return {
-                url: AppU.urls.getUserByPage + url,
+            return {             
+                //url: AppU.urls.getUserByPage + url,
+                url: "FindUser",
                 type: "POST",
                 data: { currentPage: currentPageParam, find: findUser},
                 success: function (data) {

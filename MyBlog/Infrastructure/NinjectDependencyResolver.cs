@@ -39,9 +39,13 @@ namespace MyBlog.Infrastructure
             kernel.Bind<IUsersManager>().To<UsersManager>();
             kernel.Bind<IUser>().To<UsersRepository>().InSingletonScope();
 
-            //kernel.Bind<IImgsManager>().To<ImgsManager>().InSingletonScope();
+            kernel.Bind<IImgsManager>().To<ImgsManager>().InSingletonScope();
 
-            //kernel.Bind<IEmailManager>().To<EmailManager>().InSingletonScope();
+            kernel.Bind<IEmailManager>().To<EmailManager>().InSingletonScope();
+
+            kernel.Bind<IAccountManager>().To<AccountManager>();
+
+            kernel.Bind<IUserAuthRepository>().To<UserAuthRepository>();
         }
     }
 }

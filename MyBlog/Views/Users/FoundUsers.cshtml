@@ -15,11 +15,15 @@
     });
 }
 
-<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
-    <div class="col-lg-12">
-        <button id="showFormAddUser" class="btn btn-success">Add User</button>
+@if (User.Identity.Name == "admin")
+{
+    <div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+        <div class="col-lg-12">
+            <button id="showFormAddUser" class="btn btn-success">Add User</button>
+        </div>
     </div>
-</div>
+}
+
 
 <script>
     AppU.pageInfo.currentPage = @Model.PageInfo.CurrentPage;

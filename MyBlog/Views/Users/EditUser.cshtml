@@ -2,51 +2,46 @@
 @model SelectUserModel
 
 
+<div class="row">
+    
+    <div class="col-lg-12 pull-right text-right">
+        <button id="closeEditUserForm" class="btn btn-default btn-xs">X</button>
+    </div>
 
-
-    <div class="row">
-        
-        <div class="col-lg-12 pull-right text-right">
-            <button id="closeEditUserForm" class="btn btn-default btn-xs">X</button>
-        </div>
-
-        <div class="col-lg-12">
-            <div id="userImg" class="col-lg-12"></div>
-            <h3 style="position: absolute; top: 120px; right: 200px;">Edit User</h3>
-            @{
-                AjaxOptions ajaxOptionsEditUser = new AjaxOptions
-                {
-                    Url = Url.Action("EditUser"),
-                    OnComplete = "completeEditUserForm"
-                };
-            }
-            @using (@Ajax.BeginForm("EditUser", ajaxOptionsEditUser))
+    <div class="col-lg-12">
+        <div id="userImg" class="col-lg-12"></div>
+        <h3 style="position: absolute; top: 120px; right: 200px;">Edit User</h3>
+        @{
+            AjaxOptions ajaxOptionsEditUser = new AjaxOptions
             {
-                <div class="form-horizontal col-lg-12">
-                    <div class="form-group" style="margin-top: 20px;">
-                        <div class="col-lg-3">
-                            <button class="btn btn-default form-control" type="button">
-                                <i class="fa fa-upload"></i>
-                                @Html.ActionLink("User Img", "Upload", new {idParam = "xxx"},
-                                    new {@class = "callUploadUserImg", data_src = "/Users/Upload?idParam=xxx"})
-                            </button>
-                        </div>
-                    </div>
-
-                    @Html.Partial("SelectUserModel")
-
-                    <div class="form-group" style="margin-top: 25px; padding-bottom: 15px;">
-                        <div class="col-lg-3 col-lg-offset-4">
-                            <button type="submit" class="btn btn-success form-control  okEdit">Edit User</button>
-                        </div>
-                        <div class="col-lg-3">
-                            <button type="reset" class="btn btn-default form-control ">Cancel</button>
-                        </div>
+                Url = Url.Action("EditUser"),
+                OnComplete = "completeEditUserForm"
+            };
+        }
+        @using (@Ajax.BeginForm("EditUser", ajaxOptionsEditUser))
+        {
+            <div class="form-horizontal col-lg-12">
+                <div class="form-group" style="margin-top: 20px;">
+                    <div class="col-lg-3">
+                        @Html.ActionLink("Upload Img", "Upload", new {idParam = "xxx"},
+                            new {@class = "callUploadUserImg btn btn-default col-lg-12", data_src = "/Users/Upload?idParam=xxx"})
                     </div>
                 </div>
 
-                <input id="inputCurrentPageEditForm" class="hidden" name="CurrentPage" type="hidden"/>
-                <input id="inputFindUserEditForm" class="hidden" name="Find" type="hidden"/>
-            }
-        </div>
+                @Html.Partial("SelectUserModel")
+
+                <div class="form-group" style="margin-top: 25px; padding-bottom: 15px;">
+                    <div class="col-lg-3 col-lg-offset-4">
+                        <button type="submit" class="btn btn-success form-control  okEdit">Edit User</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button type="reset" class="btn btn-default form-control ">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+            <input id="inputCurrentPageEditForm" class="hidden" name="CurrentPage" type="hidden"/>
+            <input id="inputFindUserEditForm" class="hidden" name="Find" type="hidden"/>
+        }
     </div>
+</div>

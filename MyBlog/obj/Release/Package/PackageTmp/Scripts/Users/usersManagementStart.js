@@ -1,9 +1,4 @@
 ﻿
-function EditUser(data) {
-    alert('User changed');
-    $('#editUserForm').fadeOut();
-}
-
 $(function () {
     var currentPageParam = window.AppU.pageInfo.currentPage;
 
@@ -17,8 +12,8 @@ $(function () {
         var findParam = $('#findItemFindUsers').val();
 
         $.ajax({
-            //url: 'http://localhost:7738/Users/FindUser',
-            url: "Users/FindUser",
+            //url: "Users/FindUser",
+            url: "FindUser",
             type: "POST",
             data: { currentPage: currentPageParam, find: findParam },
             success: function (data) {

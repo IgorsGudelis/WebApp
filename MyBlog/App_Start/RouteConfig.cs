@@ -14,16 +14,12 @@ namespace MyBlog
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-              name: null,
-              url: "startstart/pagepage/blabla",
-              defaults: new { controller = "StartPage", action = "HomePage", id = UrlParameter.Optional }
-          );
-
-            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Users", action = "UsersManagement", id = UrlParameter.Optional }
+                defaults: new { controller = "Navigation", action = "Home", id = UrlParameter.Optional }
             );
+
+
         }
     }
 }

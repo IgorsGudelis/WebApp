@@ -45,6 +45,11 @@ namespace MyBlog.Controllers
             return View("UsersManagement", userModel);
         }
 
+        public ActionResult ShowHelp()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult FindUser(PageInfo pageInfo)
         {           
@@ -122,8 +127,6 @@ namespace MyBlog.Controllers
             _usersManager.EditUser(
                 selectUserModel.ID, selectUserModel.FirstName,
                 selectUserModel.LastName, selectUserModel.Email);
-
-            
 
             int countPages;
             var userModel = new UserModel

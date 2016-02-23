@@ -19,7 +19,7 @@ namespace MyBlog.Models.Users
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Enter Email please")]
-        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Incorrect email")]
+        //[RegularExpression(".+\\@.+\\..+", ErrorMessage = "Incorrect email")]
         public string Email { get; set; }
 
         //public HttpPostedFileBase File { get; set; }

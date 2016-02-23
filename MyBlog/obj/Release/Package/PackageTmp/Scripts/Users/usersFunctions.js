@@ -1,72 +1,123 @@
 ﻿
+function completeAddUserForm(result) {
+
+    var isError = $("span.field-validation-error", result.responseText).length > 0;
+    if (isError) {
+        // there was an error => we update the container of the form
+        $("#addUserForm").html(result.responseText);
+    } else {
+        // no error => we hide validation errors and update the result container
+        $("#addUserForm .field-validation-error").hide();
+        $("#addUserForm .input-validation-error").removeClass("input-validation-error");
+        $("#result").html(result.responseText);
+
+        var  currentPage = 1;
+        pushState(currentPage);
+
+        alert("User is added");
+    }
+}
+
+function completeEditUserForm(result) {
+    var isError = $("span.field-validation-error", result.responseText).length > 0;
+    if (isError) {
+        // there was an error => we update the container of the form
+        $("#editUserForm").html(result.responseText);
+    } else {
+        // no error => we hide validation errors and update the result container
+        $("#editUserForm .field-validation-error").hide();
+        $("#editUserForm .input-validation-error").removeClass("input-validation-error");
+        $("#result").html(result.responseText);
+
+        alert("User is changed");
+    }
+}
+
 (function(mainAppObject) { 
 
     mainAppObject.userPage = {};
 
-    function bindEventsForCloseUserForm($closeUserForm, $addUserForm) {
-        $closeUserForm
-             .mouseover(function () {
-                 $(this).addClass("btn-danger");
-             })
-             .mouseout(function () {
-                 $(this).removeClass("btn-danger");
-             })
-             .click(function () {
-                 $addUserForm.fadeOut();
-             });
+    function bindEventsForCloseUserForm($visibleUserForm, $closeUserForm) {
+        $visibleUserForm.on(
+        {
+            "click": function() {
+                $visibleUserForm.hide()
+                    .find("span").hide()
+                    .end()
+                    .find("input").removeClass("input-validation-error");
+            },
+            "mouseover": function() {
+                $(this).addClass("btn-danger");
+            },
+            "mouseout": function() {
+                $(this).removeClass("btn-danger");
+            }
+        }, $closeUserForm);
     }
-
-    mainAppObject.userPage.addUserForm = function () {
-
-        var currentPage = mainAppObject.pageInfo.currentPage;
-        var $addUserForm = $('#addUserForm');
-        var $closeAddUserForm = $('#closeAddUserForm');
-
-        $addUserForm.hide();
-
-        $("#showFormAddUser").on('click', function () {
-            $('#editUserForm').hide();
-            $addUserForm.fadeIn();
-        });
-
-        bindEventsForCloseUserForm($closeAddUserForm, $addUserForm);
-
-        $('#okAddUser').on('click', function () {
-            currentPage = 1;
-            pushState(currentPage);
-        });   
-    };
 
     function getUserImg($editUserForm, data) {
         var userImg = $("<img/>")
             .attr("src", data.srcImg)
-            .css({ "margin-top": "10px"
+            .css({
+                "margin-top": "10px"
             });
         $editUserForm.find("#userImg").empty();
         $editUserForm.find("#userImg").append(userImg);
     }
 
     function hrefUploadUserImg($linkCallUploadUserImg, id) {
-        var  src = $linkCallUploadUserImg.attr("data-src");
+        var src = $linkCallUploadUserImg.attr("data-src");
         src = src.replace("xxx", id);
         $linkCallUploadUserImg.attr("href", src);
     }
+
+    mainAppObject.userPage.addUserForm = function () {
+
+        var $addUserForm = $('#addUserForm');
+        var $closeAddUserForm = "#closeAddUserForm";
+
+        $addUserForm.hide();
+        
+        $("#showFormAddUser").on('click', function () {
+            $('#editUserForm')
+                .hide()
+                .find("input").removeClass("input-validation-error")
+                .end()
+                .find("span").hide();
+
+            $addUserForm
+                .fadeIn()
+                .find("input").removeClass("input-validation-error")
+                .end()
+                .find("span").hide();
+        });
+
+        bindEventsForCloseUserForm($addUserForm, $closeAddUserForm); 
+    };
 
     mainAppObject.userPage.editUserForm = function () {
 
         var currentPageParam = mainAppObject.pageInfo.currentPage;
         var $editUserForm = $('#editUserForm');
-        var $closeEditUserForm = $('#closeEditUserForm');
+        var $closeEditUserForm = "#closeEditUserForm";
         var $linkCallUploadUserImg = $editUserForm.find(".callUploadUserImg");
          
         $editUserForm.hide();
    
         $(".editUserLink").on('click', function (even) {
-            $('#addUserForm').hide();
+            $('#addUserForm')
+                .hide()
+                .find("input").removeClass("input-validation-error")
+                .end()
+                .find("span").hide();
 
-            $editUserForm.fadeIn();
+            $editUserForm
+                .fadeIn()
+                .find("input").removeClass("input-validation-error")
+                .end()
+                .find("span").hide();
 
-            bindEventsForCloseUserForm($closeEditUserForm, $editUserForm);
+            bindEventsForCloseUserForm($editUserForm, $closeEditUserForm);
   
             //detect id of user and set id in SelectUser.cshtml
             var id = $(this).data('id');
@@ -82,8 +133,8 @@
             $findUser.val($('#findItemFindUsers').val());
 
             $.ajax({
-                //url: 'http://localhost:7738/Users/EditUserQuery',
-                url: "Users/EditUserQuery",
+                //url: "Users/EditUserQuery",
+                url: "EditUserQuery",
                 type: "POST",
                 dataType: 'json',
                 data: {
@@ -111,8 +162,8 @@
 
             if (confirm("Delete User?")) {
                 $.ajax({
-                    //url: 'http://localhost:7738/Users/DeleteUser',
-                    url: "Users/DeleteUser",
+                    //url: "Users/DeleteUser",
+                    url: "DeleteUser",
                     type: "POST",
                     dataType: 'json',
                     data: {
